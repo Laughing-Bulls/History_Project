@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <style>
@@ -10,10 +9,16 @@
 
 
     <!-- Background Classes -->
+    .beigeBackground{background-color: beige}
 
+    <!-- Border Classes -->
+    .borderHeader{border-style: double}
+    .noTopMargin {margin-top: -10px}
+    .noBottomMargin{margin-bottom: -10px}
 
     <!-- Text Formats -->
     .boldText{font-weight: bold}
+    .underlineText{text-decoration: underline}
     .centerText{text-align: center}
 
 
@@ -32,32 +37,44 @@
 
 </head>
 
+<h1 class="borderHeader boldText underlineText centerText ">
+    Significant Places
+</h1>
+
 <body>
-<menu>
-    <ul>
-        <li>
-            About
+    <h4 class="centerText underlineText noTopMargin">
+        <a href="about.html">About</a>,
+        <a href="people.html">People</a>,
+        <a href="places.html">Places</a>,
+        <a href="events.html">Events</a>
+    </h4>
+    <menu>
+        <h3 class="boldText underlineText noBottomMargin"> Site Directory</h3>
             <ul>
-                <li><a href="about.html">About this Page</a></li>
+                <li>
+                    About
+                    <ul>
+                        <li><a href="about.html">About this Page</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Navigation
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                    </ul>
+                </li>
+                <li>
+                    People
+                    <ul>
+                        <li><a href="people.html">People</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Events
+                    <ul>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-        <li>
-            Navigation
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-            </ul>
-        </li>
-        <li>
-            People
-            <ul>
-                <li><a href="people.html">People</a></li>
-            </ul>
-        </li>
-        <li>
-            Events
-            <ul>
-                <li><a href="events.html">Events</a></li>
-            </ul>
-        </li>
-    </ul>
-</menu>
+    </menu>
+</body>
