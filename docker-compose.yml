@@ -3,6 +3,21 @@ services:
   apache:
     build: .
     ports:
-      - "8080:80"
+        -"8080:80"
     volumes:
-      - ./public_html/:/usr/local/apache2/htdocs/
+        ./public_html/:/usr/local/apache2/htdocs/
+
+  nginx:
+    image: nginx
+    volumes:
+      - mydata:/mount/testvolumes
+
+    domainname: "myHistoryWebsitePage"
+    ports:
+      - "80:80"
+  volumes:
+    mydata:
+      driver: azure_file
+      driver_opts:
+        share_name: test-volumes
+        storage_account_name: myvolumestorage
