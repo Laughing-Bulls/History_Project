@@ -1,152 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<style>
-
-    <!--
-    Color Classes
-
-    -->
-    .blue {
-        color: blue
-    }
-
-    .green {
-        color: green
-    }
-
-
-    <!--
-    Background Classes
-
-    -->
-
-    <!--
-    Border Classes
-
-    -->
-    .borderHeader {
-        border-style: double
-    }
-
-    .noTopMargin {
-        margin-top: -10px
-    }
-
-    .noBottomMargin {
-        margin-bottom: -10px
-    }
-
-    <!--
-    Text Formats
-
-    -->
-    .boldText {
-        font-weight: bold
-    }
-
-    .underlineText {
-        text-decoration: underline
-    }
-
-    .centerText {
-        text-align: center
-    }
-
-
-</style>
-
-
 <head>
-
     <meta charset="UTF-8">
-    <title>
-        Significant People in the History of the Internet
-    </title>
-    <meta name="description"
-          content="The History of the Internet as described by Sebastian Fine
+    <title>The People of the Internet</title>
+    <meta name="description" content="The people who built the Internet as described by Sebastian Fine
 		     and Scott Daniel through IS601">
-
+    <link rel="stylesheet" href="css/zstyle.css"/>
 </head>
 
-<h1 class="borderHeader boldText underlineText centerText">
-    Significant People
-</h1>
-
 <body>
-<h4 class="centerText underlineText noTopMargin">
-    <a href="about.html">About</a>,
-    <a href="people.html">People</a>,
-    <a href="places.html">Places</a>,
-    <a href="events.html">Events</a>
-</h4>
-
-<menu>
-    <h3 class="boldText underlineText noBottomMargin"> Site Directory</h3>
-    <ul>
-        <li>
-            About
+<div id="wrapper">
+    <header>
+        <div id="logo">
+            <img src="images/history-logo.png" alt="large png image of Napoleonic war painting"/>
+        </div>
+        <menu id="primaryLinks">
             <ul>
-                <li><a href="about.html">About this Page</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Places</a></li>
             </ul>
-        </li>
-        <li>
-            Navigation
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-            </ul>
-        </li>
-        <li>
-            Places
-            <ul>
-                <li><a href="places.html">Places</a></li>
-            </ul>
-        </li>
-        <li>
-            Events
-            <ul>
-                <li><a href="events.html">Events</a></li>
-            </ul>
-        </li>
-    </ul>
-</menu>
-<h2>Marc Andreessen</h2>
-<p>
-    Marc Andreessen is an entrepreneur and software engineer known as co-author of Mosaic, the first widely-used web
-    browser, and founder of Netscape Communications Corporation.
-</p>
-<h2>Bill Gates</h2>
-<p>
-    William Henry Gates III was a co-founder with Paul Allen of the software company Microsoft.
+        </menu>
+    </header>
+    <section id="intro">
+        <h1>
+            THE PEOPLE WHO BUILT THE INTERNET
+        </h1>
+    </section>
+    <div id="hero">
+        <img src="images/construction.jpg"
+             alt="jpeg image of RPPC RAILROAD CONSTRUCTION Track Laying Train & Hard Working Men Laying Down FLAT BOTTOM STEEL RAILS Sleepers & Wood Railroad Ties by hand Location Railroad Line & Photographer UNK by UpNorth Memories - Don Harrison is licensed under CC BY-NC-ND 2.0">
+        <!--- <img src="images/icons.png" alt="png image of Internet icons"> --->
+    </div>
+    <div id="buttons">
+        <div class="row">
+            <div class="column">
+                <a href="builders.html">THE BUILDERS</a>
+                <br>
+                <p>
+                    Meet the designers and engineers of the early Internet.
+                </p>
+                <img src="images/builders.jpg" alt="jpeg image of a construction site"/>
+            </div>
+            <div class="column">
+                <a href="enablers.html">THE ENABLERS</a>
+                <br>
+                <p>
+                    Meet people who developed the tools that fueled the growth of the Internet.
 
-    Gates helped to usher in the personal computer revolution.
-</p>
-<h2>Steve Jobs</h2>
-<p>
-    Steven Paul Jobs was a co-founder of Apple Inc. in the late 1970s.
-    With co-founder Steve Wozniak, Jobs created one of the first commercially successful personal computers.
-    In the early 1980s, Jobs introduced a mouse-driven GUI (Graphical User Interface) on the Macintosh personal
-    computer.
-</p>
-<h2>Larry Page & Sergey Brin</h2>
-<p>Two PhDs students from Stanford University started work in a friend's garage attempting to catalog and search the new
-    World Wide Web.
-
-    Their algoriths became the Internet’s most powerful search engine.
-
-    Google was first launched on Stanford’s website (google.stanford.edu), becoming Google.com in 1997. </p>
-
-<h2>Mark Zuckerberg</h2>
-<p>
-    Mark Zuckerberg is the founder of Facebook, the online social networking website.
-    Zuckerberg launched The Facebook (FaceMatch) from his Harvard dorm room in 2004 and then expanded it to other
-    college campuses.
-</p>
-<h2>Jeff Bezos</h2>
-<p>
-    Jeff Preston Bezos is the founder, chairman of board, president and the chief executive officer of Amazon.com, a
-    major e-commerce company that sells goods through the Internet.
-</p>
-
+                </p>
+                <img src="images/enablers.jpg" alt="jpeg image of hand plugging in a cable"/>
+            </div>
+            <div class="column">
+                <a href="salesmen.html">THE SALESMEN</a>
+                <br>
+                <p>
+                    Meet the entrepreneurs who identified and successfully established new uses for the Internet.
+                </p>
+                <img src="images/salesmen.jpg" alt="jpeg image of man holding a shopping bag"/>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&#x00A9 S. Daniel, 2021</p>
+    </footer>
+</div>
 </body>
 </html>
