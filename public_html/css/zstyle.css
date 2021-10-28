@@ -1,3 +1,23 @@
+/* HYPERLINK STYLES: unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
 #wrapper {
     width: 960px;
     margin-left: auto;
@@ -74,7 +94,7 @@ footer {
     font-family: sans-serif;
 }
 
-buttons img {
+#buttons img {
     object-fit: contain;
 }
 
