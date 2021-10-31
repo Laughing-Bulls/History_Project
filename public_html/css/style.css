@@ -3,12 +3,16 @@
     font-weight: bolder;
     align-items: center;
     justify-content: space-around;
+    border: solid rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.2);
+    width:10%;
 }
 
 .headerContainer .pagetitle {
     font-weight: bolder;
     font-size: 2rem;
     align-items: center;
+    min-width: 80%;
 }
 
 .headerContainer{
@@ -23,11 +27,11 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
 }
 
 .hero-image {
-    background-image: url('../images/banner_image.jpg');
+    background-image: url('../images/battle_thumbnail.jpg');
     width: 100%;
     height: 100px;
     background-position: center;
@@ -52,6 +56,70 @@
     grid-row-gap: 2rem;
     grid-template-columns: auto auto auto;
     backdrop-filter: blur(.125rem);
+    height: 100%;
+}
+
+
+.navigationBar {
+    overflow: hidden;
+    background-color: rgba(0,0,0,.1);
+    border: solid rgba(0,0,0,.2)
+}
+
+.navigationBar a {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border: rgba(0,0,0,.6)
+}
+
+.dropdown {
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.scrollBarDelete::-webkit-scrollbar{
+    display: none;
+}
+.scrollBarDelete{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.dropdown .dropbtn {
+    font-size: 1rem;
+    border: solid rgba(0,0,0,.4);
+    color: black;
+    padding: .8rem;
+    background-color: inherit;
+    width: max-content;
+    margin-right: .5rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,1);
+    width: fit-content;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    border: solid black;
+    background-color: rgba(220,220,220,.9);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .box {
