@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- TODO: CSS Grid-Layout or Bootstrap -->
+<!-- TODO: CSS Font Stack -->
+<!-- TODO: Change FONT to Helvetica -->
+<!-- TODO: Import Helvetica/Arial .woff Files for src -->
+
 <style>
+	<!-- CSS Box Model -->
+
 
 	<!-- Color Classes -->
 		.blue{color: blue}
 		.green{color: green}
+		.black{color: black}
 	
 
 	<!-- Background Classes -->
 
 	<!-- Border Classes -->
 	.borderHeader{border-style: double}
+	.borderLine{border: 1px solid black}
 	.noTopMargin {margin-top: -10px}
 	.noBottomMargin{margin-bottom: -10px}
-	
+	.clearFloat{clear: both}
+	.hugWrapper{
+		max-width: available;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.noSpacing
+	{
+		border-spacing: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.showInline{display: inline}
+
+	<!--Free SVG Graphics -->
+	<!-- fontawesome.com -->
 	
 	<!-- Text Formats -->
 	.boldText{font-weight: bold}
 	.underlineText{text-decoration: underline}
 	.centerText{text-align: center}
+	.rightText{text-align: right}
 
 	<!-- Image Formats -->
 
-
+	<!-- Floating-->
+	.floatComponents{
+		float: left;
+		width: 593px;
+	}
 
 </style>
 
 
 <head>
-
     <meta charset="UTF-8">
     <title>
 	    IS601 Project - The History of the Internet
@@ -36,28 +65,37 @@
     <meta name = "description"
 	  content = "The History of the Internet as described by Sebastian Fine
 		     and Scott Daniel through IS601">
-
 </head>
 
-<h1 class="borderHeader boldText underlineText centerText ">
+<h1 class="borderHeader boldText centerText ">
 	Home Page
 </h1>
 
 <body>
-	<h4 class="centerText underlineText noTopMargin">
-			<a href="about.html">About</a>,
-			<a href="people.html">People</a>,
-			<a href="places.html">Places</a>,
-			<a href="events.html">Events</a>
+	<h4 class="rightText boldText borderLine ">
+				<a href="home.html">About &emsp;</a>
+				<a href="isp.html">Early ISPs &emsp;</a>
+				<a href="people.html">People &emsp;</a>
+				<a href="places.html">Places &emsp;</a>
+				<a href="events.html">Events</a>
 	</h4>
 
-	<menu>
+
+
+	<menu id="secondaryContent">
 		<h3 class="boldText underlineText noBottomMargin"> Site Directory</h3>
 			<ul>
 				<li>
 					About
 					<ul>
-						<li><a href="about.html">About this Page</a></li>
+						<li><a href="home.html">About this Page</a></li>
+					</ul>
+				</li>
+				<li>
+				<li>
+					Early ISPs
+					<ul>
+						<li><a href="isp.html">ISPs</a></li>
 					</ul>
 				</li>
 				<li>
@@ -80,5 +118,8 @@
 				</li>
 			</ul>
 	</menu>
+	<div>
+		<footer class="clearFloat"> IS601-001 F21 </footer>
+	</div>
 </body>
-
+</html>

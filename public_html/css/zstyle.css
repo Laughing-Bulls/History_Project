@@ -1,0 +1,115 @@
+/* HYPERLINK STYLES: unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+#wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+}
+
+#logo {
+    float: left;
+    padding-left: 20;
+    padding-right: 20;
+    border-style: ridge;
+    background-color: bisque;
+}
+
+#logo img {
+    width: 255px;
+    height: 104.8px;
+}
+
+#primaryLinks {
+    float: left;
+    text-align: right;
+    height: 100px;
+    width: 610px;
+    line-height: 100px;
+    padding-right: 40px;
+    margin: 0px;
+}
+
+#primaryLinks ul {
+    padding-left: 200px;
+}
+
+#primaryLinks li {
+    padding-left: 0px;
+    display: inline;
+    font-family: sans-serif;
+}
+
+
+#intro {
+    clear: both;
+    border-top-style: double;
+    border-bottom-style: double;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 10px;
+}
+
+#intro h1 {
+    clear: both;
+    font-size: xx-large;
+    color: darkblue;
+    align-content: center;
+    text-align: center;
+}
+
+
+#hero {
+    align-content: center;
+    border-style: none;
+}
+#hero img {
+    width: 960px;
+    height: 410px;
+}
+
+footer {
+    clear: both;
+    border-top-style: ridge;
+    font-size: small;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#buttons img {
+    object-fit: contain;
+}
+
+.column {
+    float: left;
+    width: 28.5%;
+    border: 15px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
