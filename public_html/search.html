@@ -4,42 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <title>
-        The Battle Over Search in the History of the Internet
+        The Searchers
     </title>
     <meta name="description"
           content="The Battle Over Search in the History of the Internet as described by Sebastian Fine
 		     and Scott Daniel through IS601">
-    <link rel="stylesheet" href="css/fstyle.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 
 
-<body>
-<div id="wrapper">
-    <header>
-        <div id="logo">
-            <img src="images/history-logo.png" alt="History of the Internet logo"/>
-        </div>
-        <menu id="primaryLinks">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">People</a></li>
-                <li><a href="#">Places</a></li>
-            </ul>
-        </menu>
-    </header>
+<div class="headerContainer">
+    <div class="headerContainer pagetitle banner">
+        <span style="color: white">The Searchers</span>
+    </div>
 
-    <section id="intro">
-        <h1>
-            The Battle Over Search
-        </h1>
-        <h2>
-            As Web content exploded, users found it increasingly challenging to find what they were looking for. In
-            1990, Archie introduced an FTP site with an index of downloadable directory listings. Directory listings
-            dominated until software was developed to crawl and index websites.
-        </h2>
-    </section>
-    <article>
+    <div class="headerContainer primarylinks" style="float: right; background-image: url('images/banner_image.jpg')" >
+        <a href="home.html">Home</a>
+    </div>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">
+                Quick Access &#9660;
+            </button>
+            <div class="dropdown-content">
+                <a href="browsers.html">The Browsers</a>
+                <a href="salesmen.html">The Entrepreneurs</a>
+                <a href="enablers.html">The Enablers</a>
+                <a href="builders.html">The Founders</a>
+                <a href="isp.html">The Providers</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<body class="scrollBarDelete">
+<h2 style="width:100%;font-size: 1.5rem;text-align: center;padding:inherit">
+    As Web content exploded, users found it increasingly challenging to find what they were looking for. In
+    1990, Archie introduced an FTP site with an index of downloadable directory listings. Directory listings
+    dominated until software was developed to crawl and index websites.
+</h2>
+
+<div id="pageWrapper">
+
+    <article class="box">
         <h3>Excite</h3>
         <img src="images/excite.jpg" alt="jpg picture of Excite screen">
         <p>
@@ -52,7 +61,9 @@
             following its launch, and Excite@Home filed for bankruptcy in October 2001. InfoSpace bought its assets and
             trademarks for $10 million, and Ask Jeeves purchased the Excite.com portal in 2004.
         </p>
+    </article>
 
+    <article class="box">
         <h3>Lycos</h3>
         <img src="images/lycos.jpg" alt="jpg picture of Lycos screen">
         <p>
@@ -65,7 +76,9 @@
             Lycos abandoned its search engine and was sold in 2004 to Daum Communications in Korea as a collection of
             entertainment and social networking websites.
         </p>
+    </article>
 
+    <article class="box">
         <h3>Yahoo!</h3>
         <img src="images/yahoo.jpg" alt="jpg picture of Yahoo headquarters">
         <p>
@@ -77,7 +90,9 @@
             ceding that ground to Google. After rejecting a $47 bn takeover offer from Microsoft in 2008, Yahoo!
             eventually sold itself to Verizon in 2016 for less than $5 bn.
         </p>
+    </article>
 
+    <article class="box">
         <h3>AskJeeves</h3>
         <img src="images/ask.png" alt="jpg picture of AskJeeves logo">
         <p>
@@ -91,8 +106,9 @@
             against Google, Yahoo!, and MSN Search. The site was rebranded to Ask.com in 2006 and licenced its search
             function to another provider in 2010.
         </p>
+    </article>
 
-
+    <article class="box">
         <h3>Google</h3>
         <img src="images/google.jpg" alt="jpg picture of Google headquarters">
         <p>
@@ -106,7 +122,9 @@
             1999, AOL selected Google as its search partner. Google now generates over $60 bn of annual revenue from
             advertising, cloud computing, software, and hardware sales.
         </p>
+    </article>
 
+    <article class="box">
         <h3>Microsoft Bing</h3>
         <img src="images/bing.png" alt="jpg picture of Bing logo">
         <p>
@@ -119,7 +137,9 @@
             networks. Bing released a mobile-friendly algorithm update in 2015. Today Bing is the second-largest search
             engine worldwide with over 14 billion monthly search queries.
         </p>
+    </article>
 
+    <article class="box">
         <h3>DuckDuckGo</h3>
         <img src="images/duck.jpg" alt="jpg picture of DuckDuckGo home screen">
         <p>
@@ -133,7 +153,9 @@
             suit in 2019. DuckDuckGo now answers over 100 million searches per day, making revenue from ads that don’t
             involve tracking individual users.
         </p>
+    </article>
 
+    <article class="box">
         <h3>Neeva</h3>
         <img src="images/neeva.png" alt="jpg picture of Neeva screen">
         <p>
@@ -145,8 +167,10 @@
             prices. For this, they charge $4.95 per month.
         </p>
     </article>
+
     <footer>
-        <p>&#x00A9 S. Daniel, 2021</p>
+        <span style="text-align: left">&#x00A9 <a href="https://github.com/Laughing-Bulls/History_Project.git"> S. Daniel</a> & <a href="https://github.com/finesebastian/History_Project.git">S. Fine, 2021</a> </span>
+        <span style="float: right; padding-right: 2rem"><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fhistorywebsite.eastus.azurecontainer.io%2Fsearch.html"> W3C Validator</a></span>
     </footer>
 </div>
 </body>
