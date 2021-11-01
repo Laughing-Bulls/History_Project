@@ -9,38 +9,43 @@
     <meta name="description"
           content="The Battle of the Browsers in The History of the Internet as described by Sebastian Fine
 		     and Scott Daniel through IS601">
-    <link rel="stylesheet" href="css/fstyle.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 
 
-<body>
-<div id="wrapper">
-    <header>
+<div class="headerContainer">
+    <div class="headerContainer pagetitle banner">
+        <span style="color: white">The Battle of the Browsers</span>
+    </div>
 
-        <div id="logo">
-            <img src="images/history-logo.png" alt="History of the Internet logo"/>
+    <div class="headerContainer primarylinks" style="float: right; background-image: url('images/banner_image.jpg')" >
+        <a href="home.html">Home</a>
+    </div>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">
+                Quick Access &#9660;
+            </button>
+            <div class="dropdown-content">
+                <a href="enablers.html">The Builders</a>
+                <a href="browsers.html">The Browsers</a>
+                <a href="salesmen.html">The Entrepreneurs</a>
+                <a href="builders.html">The Founders</a>
+                <a href="isp.html">The Providers</a>
+                <a href="search.html">The Searchers</a>
+            </div>
         </div>
-        <menu id="primaryLinks">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">People</a></li>
-                <li><a href="#">Places</a></li>
-            </ul>
-        </menu>
-    </header>
-
-    <section id="intro">
-        <h1>
-            The Battle of the Browsers
-        </h1>
-        <h2>
-            The introduction of the World Wide Web spawned a fiercely competitive battle among companies to own the
-            front end of the Internet user experience. Their business strategies weren't clear, but they sparked the
-            early days of the Internet gold rush.
-        </h2>
-    </section>
-    <article>
+    </div>
+</div>
+<h2 style="width:100%;font-size: 1.5rem;text-align: center;padding:inherit">
+    The introduction of the World Wide Web spawned a fiercely competitive battle among companies to own the
+    front end of the Internet user experience. Their business strategies weren't clear, but they sparked the
+    early days of the Internet gold rush.
+</h2>
+<body>
+<div id="pageWrapper">
+    <article class="box">
         <h3>Mosaic</h3>
         <img src="images/mosaic.jpg" alt="jpg picture of Mosaic browser screen">
         <p>
@@ -54,7 +59,9 @@
             each month. It was then that Silicon Valley executive Jim Clark contacted Andreesen with a strategy to
             transform Mosaic into a new business venture.
         </p>
+    </article>
 
+    <article class="box">
         <h3>Netscape Navigator</h3>
         <img src="images/netscape.jpg" alt="jpg picture of Netscape Navigator screenshot">
         <p>
@@ -69,7 +76,9 @@
             would become the foundation to the Firefox web browser. By 2008, AOL had stopped supporting Netscape
             Navigator.
         </p>
+    </article>
 
+    <article class="box">
         <h3>Microsoft Internet Explorer</h3>
         <img src="images/explorer.jpg" alt="jpg picture of Internet Explorer logo">
         <p>
@@ -84,8 +93,9 @@
             peaked in 2003 at 95%. Navigator’s open-source successor Firefox lured away users with an improved, more
             secure browser experience, and Google’s Chrome browser overtook Explorer in 2012.
         </p>
+    </article>
 
-
+    <article class="box">
         <h3>Firefox</h3>
         <img src="images/firefox.jpg" alt="jpg picture of Firefox logo">
         <p>
@@ -98,7 +108,9 @@
             share peaked in 2009 at approximately 32%. Before long, its popularity was overtaken by Google’s Chrome
             browser. Today it has only an 8% market share of desktop users.
         </p>
+    </article>
 
+    <article class="box">
         <h3>Google Chrome</h3>
         <img src="images/chrome.jpg" alt="jpg picture of Chrome logo">
         <p>
@@ -108,7 +120,9 @@
             and search bar. Its private browsing feature prevents the browser from locally storing history or cookies.
             Today it is estimated that Chrome has a 68% worldwide market share.
         </p>
+    </article>
 
+    <article class="box">
         <h3>Apple Safari</h3>
         <img src="images/safari.jpg" alt="jpg picture of Safari window">
         <p>
@@ -122,7 +136,7 @@
 
     </article>
     <footer>
-        <p>&#x00A9 S. Daniel, 2021</p>
+        <p>&#x00A9 S. Daniel & S. Fine, 2021 </p>
     </footer>
 </div>
 </body>
