@@ -2,4 +2,8 @@
 IS601 Project - The History of the Internet
 
 Website address:
-http://inthistory2.eastus.azurecontainer.io/
+http://historywebsite.eastus.azurecontainer.io/
+
+Group:
+Sebastian Fine
+Scott Daniel
