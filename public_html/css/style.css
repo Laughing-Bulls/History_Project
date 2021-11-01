@@ -267,11 +267,6 @@ h3{
     border-right: 5px double black;
 }
 
-.footer{
-    position: relative;
-    bottom: -50vh;
-    width: 100vw;
-    align-content: end;
-    justify-content: space-around;
+footer{
     background: rgba(255,255,255,.4)
 }
