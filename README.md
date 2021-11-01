@@ -8,5 +8,4 @@ Website address (Scott):
 http://inthistory2.eastus.azurecontainer.io/home.html
 
 Group:
-Sebastian Fine &
-Scott Daniel
+Sebastian Fine & Scott Daniel
