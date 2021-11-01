@@ -1,0 +1,277 @@
+.headerContainer .primarylinks{
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border: solid rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.2);
+    padding: 0 1rem 0 1rem;
+    width: 20%;
+}
+
+.headerContainer .primarylinks a:link {
+    color: rgba(220,220,220,1);
+}
+
+.headerContainer .primarylinks a:visited {
+    color: white;
+}
+
+.headerContainer .primarylinks a:hover {
+    color: red;
+}
+
+.headerContainer .pagetitle {
+    font-weight: bolder;
+    font-size: 2rem;
+    align-items: center;
+    min-width: 80%;
+    padding-left: 1rem;
+}
+
+.headerContainer{
+    width: 100%;
+    min-height: 100%;
+    display: inline-flex;
+    background: rgba(255,255,255,.4);
+
+}
+
+.backgroundImage{
+    background-image: url('../images/frontpage_pioneering.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
+.hero-image {
+    background-image: url('../images/history-logo.png');
+    background-color: rgba(255,255,255,.4);
+    width: 50%;
+    height: 10vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
+
+.banner{
+    background-image: url('../images/banner_image.jpg');
+    width: 100%;
+    height: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: inline-flex;
+    padding-left: 25px;
+}
+
+.bannerText{
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 2rem;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navigationBar {
+    overflow: hidden;
+    background-color: rgba(0,0,0,.1);
+    border: solid rgba(0,0,0,.2)
+}
+
+.navigationBar a {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border: rgba(0,0,0,.6)
+}
+
+.dropdown {
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.scrollBarDelete::-webkit-scrollbar{
+    display: none;
+}
+.scrollBarDelete{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.dropdown .dropbtn {
+    font-size: 1rem;
+    border: solid rgba(0,0,0,.4);
+    color: black;
+    padding: .8rem;
+    background-color: rgba(0,0,0,.1);
+    width: max-content;
+    margin-right: .75rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,1);
+    width: fit-content;
+    z-index: 1;
+    border: solid rgba(0,0,0,.8);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    }
+
+.dropdown-content a:hover {
+    border-top: solid rgba(0,0,0,.8);
+    border-bottom: solid rgba(0,0,0,.8);
+    background-color: rgba(220,220,220,.8);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.wrapper
+{
+    display: grid;
+    margin: .5rem 1.5rem 1rem 1rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: auto auto auto;
+    backdrop-filter: blur(.125rem);
+    height: 100%;
+}
+
+@media screen and (max-width: 600px)
+{
+    div.wrapper
+    {
+        grid-template-columns: auto auto;
+    }
+}
+footer
+{
+    background: rgba(255,255,255,.4)
+}
+.pageWrapper {
+    display: grid;
+    margin: .5rem 1.5rem 1rem 1rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: auto;
+    backdrop-filter: blur(.125rem);
+    height: 100%;
+}
+
+.wrapper .box {
+    border-radius: .5rem;
+    background-color: rgba(255, 255, 255, .5);
+    place-self: center;
+    text-align: center;
+
+}
+
+article{
+    padding: 1rem 2rem .5rem .5rem;
+    grid-template-columns: auto auto;
+    display: grid;
+    justify-content: right;
+    border-bottom: double black;
+}
+
+
+img{
+    grid-column: 1;
+    grid-row: 2;
+    width: 15rem;
+    height: 12rem;
+}
+p{
+    align-content: center;
+    grid-column: 2;
+    grid-row: all;
+    width: 100%;
+    padding: .5rem;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+h3{
+    align-content: center;
+    text-align: center;
+    width: 15rem;
+
+}
+
+.box .boxImage{
+    display: block;
+}
+
+.box a img{
+    display: block;
+    width: 15rem;
+    height: 12rem;
+}
+.box a{
+    font-size: 1.5rem;
+    display: block
+}
+
+
+.wrapper .box > .leftImageBox {
+    grid-column: 1;
+    width: 20%;
+}
+.wrapper .box > .rightContentPane {
+    grid-column: 2;
+    width: 80%;
+}
+
+.wrapper .box .centerContentPane {
+    grid-column: 2;
+    width: 80%;
+}
+
+.wrapper .box .leftContentPane {
+    grid-column: 1 ;
+    width: 80%;
+}
+.wrapper .box .rightImageBox {
+    grid-column: 2;
+    width: 20%;
+}
+
+.wrapper .box .rightSideContentbar{
+    grid-column: 3;
+    border-left: 5px double black;
+}
+
+.wrapper .box .leftSideContentbar{
+    grid-column: 1;
+    border-right: 5px double black;
+}
+
+.footer{
+    position: relative;
+    bottom: -50vh;
+    width: 100vw;
+    align-content: end;
+    justify-content: space-around;
+    background: rgba(255,255,255,.4)
+}
