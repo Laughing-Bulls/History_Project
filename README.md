@@ -5,5 +5,5 @@ Website address:
 http://historywebsite.eastus.azurecontainer.io/
 
 Group:
-Sebastian Fine
+Sebastian Fine &
 Scott Daniel
