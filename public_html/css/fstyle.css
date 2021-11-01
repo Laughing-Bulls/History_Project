@@ -36,7 +36,7 @@ a:active {
     width: 255px;
     height: 104.8px;
 }
-
+/* LEGACY CODE FOR OLD LINKS
 #primaryLinks {
     float: left;
     text-align: right;
@@ -55,6 +55,49 @@ a:active {
     padding-left: 0px;
     display: inline;
     font-family: sans-serif;
+}
+*/
+.navbar {
+    : right;
+}
+
+.dropdown {
+    display: inline-flex;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 1rem;
+    border: solid rgba(0,0,0,.4);
+    color: black;
+    padding: .8rem;
+    background-color: inherit;
+    width: max-content;
+    margin-right: .5rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,1);
+    width: fit-content;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    border: solid black;
+    background-color: rgba(220,220,220,.9);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 
