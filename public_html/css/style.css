@@ -152,19 +152,17 @@
     height: 100%;
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 600px)
 {
-    .wrapper
+    div.wrapper
     {
-        display: grid;
-        margin: .5rem 1.5rem 1rem 1rem;
-        grid-row-gap: 2rem;
         grid-template-columns: auto auto;
-        backdrop-filter: blur(.125rem);
-        height: 100%;
     }
 }
-
+footer
+{
+    background: rgba(255,255,255,.4)
+}
 .pageWrapper {
     display: grid;
     margin: .5rem 1.5rem 1rem 1rem;
@@ -212,10 +210,15 @@ h3{
     width: 20rem;
     height: 15rem;
 }
-.box .boxImage a{
+
+.box a img{
     display: block;
     width: 20rem;
     height: 15rem;
+}
+.box a{
+    font-size: 1.5rem;
+    display: block
 }
 
 
