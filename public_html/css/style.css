@@ -7,7 +7,7 @@
     border: solid rgba(0,0,0,.4);
     background-color: rgba(255,255,255,.2);
     padding: 0 1rem 0 1rem;
-    width: 25%;
+    width: 20%;
 }
 
 .headerContainer .primarylinks a:link {
@@ -113,7 +113,7 @@
     padding: .8rem;
     background-color: inherit;
     width: max-content;
-    margin-right: .5rem;
+    margin-right: .75rem;
 }
 
 .dropdown-content {
@@ -142,13 +142,27 @@
 }
 
 
-.wrapper {
+.wrapper
+{
     display: grid;
     margin: .5rem 1.5rem 1rem 1rem;
     grid-row-gap: 2rem;
     grid-template-columns: auto auto auto;
     backdrop-filter: blur(.125rem);
     height: 100%;
+}
+
+@media screen and (max-width: 480px)
+{
+    .wrapper
+    {
+        display: grid;
+        margin: .5rem 1.5rem 1rem 1rem;
+        grid-row-gap: 2rem;
+        grid-template-columns: auto auto;
+        backdrop-filter: blur(.125rem);
+        height: 100%;
+    }
 }
 
 .pageWrapper {
@@ -195,8 +209,13 @@ h3{
 
 .box .boxImage{
     display: block;
-    width: 15rem;
-    height: 10rem;
+    width: 20rem;
+    height: 15rem;
+}
+.box .boxImage a{
+    display: block;
+    width: 20rem;
+    height: 15rem;
 }
 
 
